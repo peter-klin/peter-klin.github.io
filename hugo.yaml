@@ -1,0 +1,60 @@
+baseURL: "https://peter-klin.github.io/"
+locale: "en-US"
+title: "Peter Lin"
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  author: "Peter Lin"
+  description: "Notes on data science, AI, engineering, and things I'm learning."
+
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+
+  showtoc: true
+  tocopen: false
+
+  homeInfoParams:
+    Title: "Hi, I'm Peter 👋"
+    Content: >
+      I write about data science, AI, software engineering,
+      and things I'm learning.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/peter-klin"
+
+menu:
+  main:
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 10
+
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
