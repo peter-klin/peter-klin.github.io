@@ -44,11 +44,14 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/kuan-fu-lin-737378230/"
 
+    - name: rss
+      url:  "https://peter-klin.github.io/index.xml"
+
     - name: googlescholar
-      url: https://scholar.google.com/citations?user=eExOPXkAAAAJ&hl=en
+      url: "https://scholar.google.com/citations?user=eExOPXkAAAAJ&hl=en"
 
     - name: kaggle
-      url: https://www.kaggle.com/peterdamn
+      url: "https://www.kaggle.com/peterdamn"
 
 menu:
   main:
