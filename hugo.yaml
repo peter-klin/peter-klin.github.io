@@ -24,6 +24,7 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: true
 
+  ShowShareButtons: true
   ShareButtons:
     - linkedin
     - x
