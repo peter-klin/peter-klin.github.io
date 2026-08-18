@@ -1,6 +1,6 @@
 baseURL: "https://peter-klin.github.io/"
 locale: "en-US"
-title: "Peter Lin"
+title: "Peter's blog"
 theme: ["PaperMod"]
 
 enableRobotsTXT: true
@@ -24,6 +24,10 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: true
 
+  ShareButtons:
+    - linkedin
+    - x
+
   showtoc: true
   tocopen: false
 
@@ -36,6 +40,9 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/peter-klin"
+
+    - name: linkedin
+      url: "https://www.linkedin.com/in/kuan-fu-lin-737378230/"
 
 menu:
   main:
