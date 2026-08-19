@@ -79,3 +79,16 @@ menu:
 caches:
   images:
     dir: ":cacheDir/images"
+
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+        enable: true
