@@ -1,7 +1,7 @@
 ---
 title: "Math Test"
 date: 2026-08-19
-draft: false
+draft: true
 tags:
   - mathematics
 ---
