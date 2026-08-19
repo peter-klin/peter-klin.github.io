@@ -28,6 +28,7 @@ params:
   ShareButtons:
     - linkedin
     - x
+    - reddit
 
   showtoc: true
   tocopen: false
@@ -53,6 +54,9 @@ params:
 
     - name: kaggle
       url: "https://www.kaggle.com/peterdamn"
+
+    - name: spotify
+      url: "https://open.spotify.com/user/peterdamn"
 
 menu:
   main:
